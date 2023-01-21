@@ -8,86 +8,81 @@
     <link rel="stylesheet" href="styless.css">
 </head>
 <body>
-    <table cellspaceing = "15">
-        <tr>
-            <th>
-                <img src="Me.jpg" alt="Фото"
-                width = "200"/>
-            </th>
-            <th>
-                <h1>Каменских Валерий</h1>
-                <p><em>Я C++ разработчик и Game Developer на Unity</em></p>
-                <p>Я увлекаюсь <strong>настольным тениссом и микроконтроллерами</strong></p>
-            </th>
-        </tr>
-    </table>
+    <div class="container">
+        <div class = "info">
+            <img src="Me.jpg" alt="Фото"
+            class="avatar"/>
+            <h1>Каменских Валерий</h1>
+            <p><em>Я C++ разработчик и Game Developer на Unity</em></p>
+            <p>Я увлекаюсь <strong>настольным тениссом и микроконтроллерами</strong></p>            
+        </div>
 
-    <hr>
+        <hr>
 
-    <h2>Мои социальные сети:</h2>
-    <p>VK: @rushexe | <a href="https://vk.com/rushexe" target="_blank">перейти</a></p>
-    <p>TG: @neon4on | <a href="https://t.me/neon4on" target="_blank">перейти</a></p>
-    <p>Discord: Cloud.js#7160</p>
+        <div class = "social">
+            <h2>Мои социальные сети:</h2>
+            <p>VK: @rushexe | <a href="https://vk.com/rushexe" target="_blank">перейти</a></p>
+            <p>TG: @neon4on | <a href="https://t.me/neon4on" target="_blank">перейти</a></p>
+            <p>Discord: Cloud.js#7160</p>
+        </div>
+        <hr>
 
-    <hr>
+        <h2>Мои навыки и знания:</h2>
+        <p>C++, Python, HTML, CSS</p>
 
-    <h2>Мои навыки и знания:</h2>
-    <p>C++, Python, HTML, CSS</p>
+        <hr>
+        <h2>Опыт работы:</h2>
 
-    <hr>
-    <h2>Опыт работы:</h2>
+        <table border = "15">
+            <tr>
+                <th>Компания</th>
+                <th>Должность</th>
+                <th>Год</th>
+            </tr>
+            <tr>
+                <td>Land of nightmares</td>
+                <td>Content manager</td>
+                <td>2019 - 2021</td>  
+            </tr>
+            <tr>
+                <td>Slime Land</td>
+                <td>CTO. Lead Developer</td>
+                <td>2021 - 2021</td>  
+            </tr>
+            <tr>
+                <td>Crypt Inside_</td>
+                <td>Crypto Project Analyst</td>
+                <td>2021 - 2022</td>
+            </tr>
+        </table>
 
-    <table border = "15">
-        <tr>
-            <th>Компания</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </tr>
-        <tr>
-            <td>Land of nightmares</td>
-            <td>Content manager</td>
-            <td>2019 - 2021</td>  
-        </tr>
-        <tr>
-            <td>Slime Land</td>
-            <td>CTO. Lead Developer</td>
-            <td>2021 - 2021</td>  
-        </tr>
-        <tr>
-            <td>Crypt Inside_</td>
-            <td>Crypto Project Analyst</td>
-            <td>2021 - 2022</td>
-        </tr>
-    </table>
+        <hr>
 
-    <hr>
+        <h2>Моё портфолио:</h2>
+        <p>LINK - <a href="https://neon4on.github.io/Site/" target="_blank">Посмотреть</a></p>
 
-    <h2>Мои планы:</h2>
-    <p>VK: @rushexe | <a href="plan.html" target="_blank">перейти</a></p>
-    <p>VK: @rushexe | <a href="plan.html" target="_blank">перейти</a></p>
-    <p>VK: @rushexe | <a href="plan.html" target="_blank">перейти</a></p>
+        <hr>
 
-    <hr>
+        <h2>Связаться со мной</h2>
 
-    <h2>Связаться со мной</h2>
+        <form action="/">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" placeholder="Иван">
 
-    <form action="/">
-        <label for="name">Ваше имя</label>
-        <input type="text" id="name" placeholder="Сергей">
+            <br>
 
-        <br>
+            <label for="email">Ваш Email</label>
+            <input type="text" id="email" placeholder="Yandex@yandex.ru">
 
-        <label for="email">Ваш Email</label>
-        <input type="text" id="email" placeholder="Sergay2004@yandex.ru">
+            <br>
 
-        <br>
+            <label for="text">Ваше сообщение:</label>
+            <br>
+            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+            <br>
 
-        <label for="text">Ваше сообщение:</label>
-        <br>
-        <textarea name="text" id="text" cols="30" rows="10"></textarea>
-        <br>
-
-        <input type="submit" value="Связаться">
-    </form>
+            <input type="submit" value="Связаться">
+        </form>
+    </div>
 </body>
 </html>
