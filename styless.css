@@ -27,6 +27,21 @@ a:active{
     box-shadow: 8px 8px 14px rgb(0 0 0 / 25%);
 }
 
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px){
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+.info-text{
+    margin-left: 40px;
+}
+
 .info p{
     margin: 0;
     font-style: italic;
@@ -40,6 +55,7 @@ a:active{
 .container{
     max-width: 1000px;
     margin: auto;
+    padding-top: 30px;
 }
 .bg-yellow{
     background: #fff9dc;
@@ -58,3 +74,12 @@ a:active{
     margin-bottom: 20px;
     border-radius: 20px;
 }
+
+.table {
+    width: 100%;
+}
+.table td{
+    padding-bottom: 10px;
+}
+
+/* position */
