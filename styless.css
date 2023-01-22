@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-color: blanchedalmond;
-
+    /* background-color: blanchedalmond; */
+    background-color: white;
     font-size: 16px;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: rgb(117, 43, 43);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active{
+    color: blue;
 }
 
 .avatar{
@@ -28,6 +41,20 @@ body {
     max-width: 1000px;
     margin: auto;
 }
+.bg-yellow{
+    background: #fff9dc;
+}
 
-.social{
+.bg-green{
+    background: #e5ffe7;
+}
+
+.bg-red{
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
